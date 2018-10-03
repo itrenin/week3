@@ -98,11 +98,9 @@ header{
 
 
 .main-page__sidebar{
-    content: "";
     display: inline-block;
     height: 75px;
     text-align: center;
-    margin: auto;
 }
 
 .menu{
@@ -303,20 +301,10 @@ ul.menu__list {
     font-size: 18px;
     line-height: 205%;
 }
-/*.feature-content__block ul{
-    margin-top: 5px;
-}*/
-/*.news-container_header h1{
-    margin: 50px;
-}*/
 
-/*****************************************************
-******************************************************
-******************************************************
+/*
 Новости
-******************************************************
-******************************************************
-*****************************************************/
+*/
 
 .feeds__container {
         margin-top: 70px;
@@ -326,9 +314,7 @@ ul.menu__list {
     display: inline-block;
     width: 81%;
   }
-
-
-  
+ 
   .feeds__header {
     width: auto;
     margin-top: 68px;
@@ -445,6 +431,8 @@ ul.menu__list {
   
   .feeds__pagination-display {
     margin-left: 314px;
+  } .feeds__pagination-display {
+    margin-left: 314px;
   }
   .feeds__pagination-pages {
     list-style: none;
@@ -510,7 +498,6 @@ ul.menu__list {
     color: #ffffff;
     width: 100%;
     margin-bottom: 0;
-    /*padding: 15px 20px;*/
 }
 .clearfix::after{
     content: "";
