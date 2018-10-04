@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru_RU">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,26 +15,26 @@
     <header>
         <div class="header-container">
             <div class="header-container__logo">Афродита</div>
-            <div class="header-container__menu">
+            <nav class="header-container__menu">
                 <ul class="header-menu">
                     <li>
-                        <a href="./index.html">
-                            <div class="header-menu__icon"><img src="./img/nav/nav-main.png"alt="Главная"></div>
+                        <a class="header-menu__active-link" href="./index.html">
+                            <div class="header-menu__icon"><img src="./img/nav/nav-main-active.png"alt="Главная"></div>
                             <div class="header-menu__text">Главная</div>
                         </a>
                     </li>
                     <li>
-                        <a href="./service.html">
+                        <a href="./feed.html">
                             <div class="header-menu__icon"><img src="./img/nav/nav-feed.png"alt="Отзывы"></div>
                             <div class="header-menu__text">Отзывы</div>
                         </a></li>
                     <li>
-                        <a href="./feed.html">
+                        <a href="./service.html">
                             <div class="header-menu__icon"><img src="./img/nav/nav-serv.png" alt="Сервис"></div>
                             <div class="header-menu__text">Услуги</div>
                         </a></li>
                 </ul>
-            </div>
+            </nav>
             <div class="header-container__contacts-container">
                 <div class="contacts-phone"><a href="tel:88000039210">8 (800) 00-392-10</a></div>
                 <div class="contacts-schedule"><a href="#">График работы</a></div>
@@ -43,5 +43,48 @@
         
     </header>
     
+    <section class="banner">
+        <div><img src="./img/main-banner.png" alt="главный баннер"></div>
+    </section>
+    <section class="features">
+        <span class="fetures__header">Особенности</span>
+        <div class="features__item">
+            <div class="features__item-header"><img src="./img/features/features-flower.png" alt="Уникальность"></div>
+            <div class="features__item-name"><h3>уникальность</h3></div>
+            <div class="features__item-body">
+                    <h4>Мы делаем все, для вашего комфорта</h4>
+                    <ul>   
+                        <li>Питание включено</li>
+                        <li>Багаж (5 кг)</li>
+                        <li>Душ/баня</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="features__item">
+                <div class="features__item-header"><img src="./img/features/features-favorite.png" alt="Премиум"></div>
+                <div class="features__item-name"><h3>премиум класс</h3></div>
+                <div class="features__item-body">
+                    <h4>Наш зал оборудован тренажёрами A-класса</h4>
+                    <ul>   
+                        <li>Качество</li>
+                        <li>Продуктивность</li>
+                        <li>Результат</li>
+                    </ul>
+                </div>
+        </div>
+        <div class="features__item">
+                <div class="features__item-header"><img src="./img/features/features-palette.png" alt="Личный тренер"></div>
+                <div class="features__item-name"><h3>личный тренер</h3></div>
+                <div class="features__item-body">
+                        <h4>Тренер сделает все для вашего результата</h4>
+                        <ul>   
+                            <li>Программа</li>
+                            <li>Питание</li>
+                            <li>План тренировки</li>
+                        </ul>
+                </div>
+        </div>
+    </section>
+
 </body>
 </html>
