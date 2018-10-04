@@ -54,6 +54,13 @@
 .header-menu a:hover{
     color: #f89513;
 }
+.header-menu a:active{
+    color: #f89513;
+}
+
+.header-menu__active-link a{
+    color: #f89513;
+}
 
 /*header menu end*/
 /*header contacts*/
