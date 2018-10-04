@@ -1,3 +1,9 @@
+header{
+    height: 75px;
+    background: #131415;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
 .header-container{
     width: 1100px;
     height: 100%;
