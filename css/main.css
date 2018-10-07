@@ -314,10 +314,11 @@ h4{
     overflow: hidden;
     margin-bottom: 28px;
     border-radius: 2px;
+    position: relative;
 }
 .service-item__img{
     position: relative;  
-    transform: scale(100%);
+    text-align: justify;
 }
 .service-item__img img{
     filter: brightness(60%);
@@ -345,4 +346,41 @@ h4{
     font-weight: 300;
     font-size: 14px;
     line-height: 21px;
+}
+
+/*Partners*/
+.partners{
+    display: block;
+    width: 920px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Open Sans',Arial, sans-serif;
+    margin-bottom: 35px;
+}
+.partners__header{
+    margin-bottom: 85px;
+}
+.partners__header h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 49px;
+}
+.partners__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.partners__item{
+    flex: 1;
+    min-width: 33%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+.partners__item:hover{
+    filter: grayscale(0);
 }
