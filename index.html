@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru_ cRU">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,249 +7,209 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>week2</title>
 </head>
-<body>
-
-        <div class="main-page">
-             <header>                
-                <div class="logo">
-                    Афродита
-                </div>
+<body class="container">
+  <header class="header">
+    <div class="header-wrapper">
+      <div class="header-wrapper__logo"><a href="#" class="logo__name">Афродита</a></div>
+      <div class="header-wrapper__contacts">
+        <div class="header__contacts">
+            <span class="contacts__tel"><a href="tel:88000039210">8 (800) 00-392-10</a>
+            </span>
+            <span class="contacts__shedule"><br>График работы</span>
+        </div>
+        
+      </div>
+      <div class="header-wrapper__nav">
+          <nav class="header__nav">
+              <ul>
+                  <li class="nav__item nav__item--main"><a class="nav-item__link" href="#">Главная</a></li>
+                  <li class="nav__item nav__item--feed"><a class="nav-item__link" href="#">Отзывы</a></li>
+                  <li class="nav__item nav__item--serv"><a class="nav-item__link" href="#">Услуги</a></li>
+                </ul>
+          </nav>
+        </div>
+    </div>
+      
+      
+  </header>
+  
+  <article class="banner">
+    <div class="banner__img">
+        <img src="./img/main-banner.png" alt="just-do-it" >
+    </div>
+  </article>
+  <article class="features-container">
                 
-                    
-                    <div class="main-page__sidebar">
-                            <nav class="menu">
-                              <ul class="menu__list">
-                                <li class="menu__item">
-                                  <a href="#" class="menu__link">
-                                    <div class="menu__icon"><img src="./img/nav/nav-main.png"></div>
-                                    <div class="menu__text">Главная</div>
-                                  </a>
-                                </li>
-                                <li class="menu__item">
-                                  <a href="#" class="menu__link">
-                                    <div class="menu__icon"><img src="./img/nav/nav-feed.png"></div>
-                                    <div class="menu__text">Отзывы</div>
-                                  </a>
-                                </li>
-                                <li class="menu__item"><a href="#" class="menu__link">
-                                    <div class="menu__icon"><img src="./img/nav/nav-serv.png"></div>
-                                    <div class="menu__text">Услуги</div>
-                                  </a>
-                                </li>
-                              </ul>
-                            </nav>
-                          </div>                        
-                
-                          
-                          <div class="contacts">
-                              <div class="contacts__container">
-                                    <div class="contacts__phone"><a href="88000039210" class="contacts__phone">8(800) 00-392-10</a></div>
-                                    <div class="contacts__avaible">График работы</div>
-                                    <div class="contacts__onair">                           
-                                            <span class="contacs__days"><br>пн-вс: 09:00-20:00</span> <span class="contacts__time"><br>обед: 14:00-14:30 </span>
-                                    </div>
-                              </div>
-                             
-                    </div>
-            </header>
-
-            
-            <div class="banner">
-                
-                    <img src="./img/main-banner.png" alt="Just Do It">
-                        
-            </div>
-            
-            <div class="features-container">
-                
-                <div class="feature-container__header"><h1 >Особенности</h1></div>
-                
-                <div class="feature-container__content">
-                    <div class="features-container__content-container"> 
-                  
-                  <div class="feature-content__block">
-                    <div class="feature-content__block-wrap">
-                    <div class="content-block-header">
-                      <div class="content-block-header__marker"><img src="./img/features/features-flower.png"></div>
-                    </div>
-                    
-                    <div class="content-block-body">
-                      <div class="content-block-body__header"><h2>Уникальность</h2></div>
-                      <div class="content-block-body__desc">
-                        <h3>Мы делаем все для вашего комфорта</h3>
-                        <ul>
-                          <li>Питание включено</li>
-                          <li>Багаж (5 кг)</li>
-                          <li>Душ/баня</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                
-                </div>
-                  <div class="feature-content__block">
-                    <div class="content-block-header">
-                      <div class="content-block-header__marker"><img src="./img/features/features-favorite.png"></div>
-                    </div>
-                    <div class="content-block-body">
-                      <div class="content-block-body__header"><h2>Премиум-класс</h2></div>
-                      <div class="content-block-body__desc">
-                        <h3>Наш зал оборудован тренажёрами A-класса</h3>
-                        <ul>
-                          <li>Качество</li>
-                          <li>Продуктивность</li>
-                          <li>Результат</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="feature-content__block">
-                    <div class="content-block-header">
-                      <div class="content-block-header__marker"><img src="./img/features/features-palette.png"></div>
-                    </div>
-                    <div class="content-block-body">
-                      <div class="content-block-body__header"><h2>Личный тренер</h2></div>
-                      <div class="content-block-body__desc">
-                        <h3>Тренер сделает все для вашего результата</h3>
-                        <ul>
-                          <li>Программа</li>
-                          <li>Питание</li>
-                          <li>План тренировки</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                </div>
-                
-                    
-            </div>
-            <!-- Новости-->
-            <div class="feeds">
-              <h1 class="header__text feeds__header">Последние новости</h1>
-              <div class="feeds__container">
-                <div class="feeds__wrap-feeds-blocks">
-                  <section class="feeds__block">
-                    <div class="img__wrapper">
-                      <img src="./img/feeds/feeds-logo1.jpg" alt="" class="feeds__img">
-                    </div>
-                    <div class="feeds__desc">
-                      <div class="feeds__desc-time">12.10.2016</div>
-                      <h3 class="feeds__desc-header">Похудение с помощью бодибилдинга!</h3>
-                      <p class="feeds__desc-text">
-                        Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в 
-                        минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 
-                        литров кислорода. Это крайне важно для каждого начинающего атлета.
-                      </p>
-                    </div>
-                  </section>
-                  <section class="feeds__block">
-                    <div class="img__wrapper">
-                      <img src="./img/feeds/feeds-logo2.jpg" alt="" class="feeds__img">
-                    </div>
-                    <div class="feeds__desc">
-                      <div class="feeds__desc-time">01.02.2016</div>
-                      <h3 class="feeds__desc-header">Заражай друзей, получай призы!</h3>
-                      <p class="feeds__desc-text">
-                        Дополнительно для Вас: пользование сауной и предоставление средств 
-                        личной гигиены, пользование баром, таблица замеров, дружеская 
-                        атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте 
-                        и предлагаем испытать это уже сегодня!
-                      </p>
-                    </div>
-                  </section>
-                  <section class="feeds__block">
-                    <div class="img__wrapper">
-                      <img src="./img/feeds/feeds-logo3.jpg" alt="" class="feeds__img">
-                    </div>
-                    <div class="feeds__desc">
-                      <div class="feeds__desc-time">22.12.2015</div>
-                      <h3 class="feeds__desc-header">Фрилансер? Выпрями спину!</h3>
-                      <p class="feeds__desc-text">
-                        Создайте рабочее место под себя. Вот этот инструмент поможет 
-                        определить, что подходит именно вам и вашему организму. Используйте 
-                        специальную подставку для ноутбука, если вы проводите за ним больше 
-                        2 часов. Настройте высоту и яркость монитора! 
-                      </p>
-                    </div>
-                  </section>
-    
-                  
-                </div>
-                <div class="feeds_wrap-top-feeds">
-                    <div class="feeds__top-feeds-header">
-                      Топ новостей <span class="top-feeds-month">за сентябрь</span>
-                    </div>
-                    <div class="feeds__top-feeds-content">
-
-                    <ul >
-                      <li class="feeds__top-feeds-img-container"><a href="#"><img src="./img/top-feeds/feeds-top1.jpg"></a></li>
-                      <li class="feeds__top-feeds-img-container"><a href="#"><img src="./img/top-feeds/feeds-top2.jpg"></a></li>
-                      <li class="feeds__top-feeds-img-container"><a href="#"><img src="./img/top-feeds/feeds-top3.jpg"></a></li>
-                    </ul>
-
-                    </div>
-                </div>
-                
-              </div>
-              <section class="pagination">
-                  <div class="pagination__container">
-                    <div class="feeds__pagination-display">Страница 1 из 7</div>
-                    <ul class="feeds__pagination-pages">
-                      <li class="feeds__pagination-item">
-                        <a href="#" class="feeds__pagination-link"><span class="bracket">‹</span></a>
-                      </li>
-                      <li class="feeds__pagination-item">
-                        <a href="#" class="white feeds__pagination-link">1</a>
-                      </li>
-                      <li class="feeds__pagination-item">
-                        <a href="#" class="feeds__pagination-link">2</a>
-                      </li>
-                      <li class="feeds__pagination-item">
-                        <a href="#" class="feeds__pagination-link">3</a>
-                      </li>
-                      <li class="feeds__pagination-item">
-                        <a href="#" class="feeds__pagination-link">4</a>
-                      </li>
-                      <li class="feeds__pagination-item">
-                        <a href="#" class="feeds__pagination-link">5</a>
-                      </li>
-                      <li class="feeds__pagination-item">
-                        <a href="#" class="feeds__pagination-link">6</a>
-                      </li>
-                      <li class="feeds__pagination-item">
-                        <a href="#" class="feeds__pagination-link">7</a>
-                      </li>
-                      <li class="feeds__pagination-item">
-                          <a href="#" class="feeds__pagination-link"><span class="bracket">›</span></a>
-                        </li>
-                    </ul>
-                  </div>
-                </section>
-            </div>
-          
-            <!--Конец новостей-->
-           
-            <footer class="footer clearfix">
-              <div class="container__footer">
-                <div class="footer__author"><span>Сделано с любовью и старанием <br>на курсе «HTML + CSS» в <span><a class="school" href="https://loftschool.com/">Loftshool.</a></span> 
-                  <br>Автор работы: <span class="author">Прохладов Вадим</span></span></div>
-                <div class="footer__logo"><span>Афродита</span></div>
-                <div class="footer__social">
-                  <div class="social-header">Наши социальные сети</div>
-                  <div class="social-desc">
-                    <ul>
-                      <li><div class="social-desc__icon"><a href="#"><img src="./img/social/footer-vk.png" alt="vk"></a></div></li>
-                      <li><div class="social-desc__icon"><a href="#"><img src="./img/social/footer-fb.png" alt="fb"></a></div></li>
-                      <li><div class="social-desc__icon"><a href="#"><img src="./img/social/footer-google.png" alt="google"></a></div></li>
-                      <li><div class="social-desc__icon"><a href="#"><img src="./img/social/footer-twitter.png" alt="twetter"></a></div></li>
-                      <li><div class="social-desc__icon"><a href="#"><img src="./img/social/footer-email.png" alt="email"></a></div></li>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </footer>
+      <div class="feature-container__header"><h2 >Особенности</h2></div>
+      
+      <div class="feature-container__content">
+          <div class="features-container__content-container"> 
+        
+        <div class="feature-content__block">
+          <div class="feature-content__block-wrap">
+          <div class="content-block-header">
+            <div class="content-block-header__marker"><img src="./img/features/features-flower.png"></div>
           </div>
-    </body>
+          
+          <div class="content-block-body">
+              <h3>УНИКАЛЬНОСТЬ</h3>
+              <h4>Мы делаем все для вашего комфорта</h4>
+              <ul>
+                <li>Питание включено</li>
+                <li>Багаж (5 кг)</li>
+                <li>Душ/баня</li>
+              </ul>      
+          </div>
+        </div>
+      
+      </div>
+        <div class="feature-content__block">
+          <div class="content-block-header">
+            <div class="content-block-header__marker"><img src="./img/features/features-favorite.png"></div>
+          </div>
+          <div class="content-block-body">
+            <h3>Премиум-класс</h3>
+              <h4>Наш зал оборудован тренажёрами A-класса</h4>
+              <ul>
+                <li>Качество</li>
+                <li>Продуктивность</li>
+                <li>Результат</li>
+              </ul>
+            
+          </div>
+        </div>
+        <div class="feature-content__block">
+          <div class="content-block-header">
+            <div class="content-block-header__marker"><img src="./img/features/features-palette.png"></div>
+          </div>
+          <div class="content-block-body">
+            <h3>Личный тренер</h3>
+              <h4>Тренер сделает все для вашего результата</h4>
+              <ul>
+                <li>Программа</li>
+                <li>Питание</li>
+                <li>План тренировки</li>
+              </ul>
+        </div>
+      </div>
+      </div>  
+    </article>
+  <main class="main-content">
+    <!-- Новости-->
+    <div class="feeds">
+        <h2 class="header__text feeds__header">Последние новости</h1>
+        <div class="feeds__container">
+          <div class="feeds__wrap-feeds-blocks">
+            <section class="feeds__block">
+              <div class="img__wrapper">
+                <img src="./img/feeds/feeds-logo1.jpg" alt="" class="feeds__img">
+              </div>
+              <div class="feeds__desc">
+                <div class="feeds__desc-time">12.10.2016</div>
+                <h3 class="feeds__desc-header">Похудение с помощью бодибилдинга!</h3>
+                <p class="feeds__desc-text">
+                  Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в 
+                  минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 
+                  литров кислорода. Это крайне важно для каждого начинающего атлета.
+                </p>
+              </div>
+            </section>
+            <section class="feeds__block">
+              <div class="img__wrapper">
+                <img src="./img/feeds/feeds-logo2.jpg" alt="" class="feeds__img">
+              </div>
+              <div class="feeds__desc">
+                <div class="feeds__desc-time">01.02.2016</div>
+                <h3 class="feeds__desc-header">Заражай друзей, получай призы!</h3>
+                <p class="feeds__desc-text">
+                  Дополнительно для Вас: пользование сауной и предоставление средств 
+                  личной гигиены, пользование баром, таблица замеров, дружеская 
+                  атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте 
+                  и предлагаем испытать это уже сегодня!
+                </p>
+              </div>
+            </section>
+            <section class="feeds__block">
+              <div class="img__wrapper">
+                <img src="./img/feeds/feeds-logo3.jpg" alt="" class="feeds__img">
+              </div>
+              <div class="feeds__desc">
+                <div class="feeds__desc-time">22.12.2015</div>
+                <h3 class="feeds__desc-header">Фрилансер? Выпрями спину!</h3>
+                <p class="feeds__desc-text">
+                  Создайте рабочее место под себя. Вот этот инструмент поможет 
+                  определить, что подходит именно вам и вашему организму. Используйте 
+                  специальную подставку для ноутбука, если вы проводите за ним больше 
+                  2 часов. Настройте высоту и яркость монитора! 
+                </p>
+              </div>
+            </section>
+
+            
+          </div>
+          <div class="feeds_wrap-top-feeds">
+              <div class="feeds__top-feeds-header">
+                Топ новостей <span class="top-feeds-month"><br>за сентябрь</span>
+              </div>
+              <div class="feeds__top-feeds-content">
+
+              <ul >
+                <li class="feeds__top-feeds-img-container"><a href="#"><img src="./img/top-feeds/feeds-top1.jpg"></a></li>
+                <li class="feeds__top-feeds-img-container"><a href="#"><img src="./img/top-feeds/feeds-top2.jpg"></a></li>
+                <li class="feeds__top-feeds-img-container"><a href="#"><img src="./img/top-feeds/feeds-top3.jpg"></a></li>
+              </ul>
+
+              </div>
+          </div>
+          
+        </div>
+        <!--
+          Пагинация
+        -->
+        <div class="pagination">
+          <div class="pagination_wrapper">
+            <div class="pagination__desc">Страница 1 из 7</div>
+            <div class="pafination__pages">
+              <div class="pagination__left-right"><a href="#">&lt;</a></div>
+              <ul class="pagination__list">
+                <li class="pagination__page pagination__page--active"><a href="#">1</a></li>
+                <li class="pagination__page"><a href="#">2</a></li>
+                <li class="pagination__page"><a href="#">3</a></li>
+                <li class="pagination__page"><a href="#">4</a></li>
+                <li class="pagination__page"><a href="#">5</a></li>
+                <li class="pagination__page"><a href="#">6</a></li>
+                <li class="pagination__page"><a href="#">7</a></li>
+              </ul>
+            <div class="pagination__left-right"><a href="#">&gt;</a></div>
+          </div>
+          </div>
+          
+        </div>
+
+      </div>
+    
+      <!--Конец новостей-->    
+  </main>
+  <!--Футер-->  
+  <footer class="footer clearfix">
+    <div class="container__footer">
+      <div class="footer__author"><span>Сделано с любовью и старанием <br>на курсе «HTML + CSS» в <span><a class="school" href="https://loftschool.com/">Loftshool.</a></span> 
+        <br>Автор работы: <span class="author">Тренин Илья</span></span></div>
+      <div class="footer__logo"><a href="#" class="logo__name">Афродита</a></div>
+      <div class="footer__social">
+        <div class="social-header">Наши социальные сети</div>
+        <div class="social-desc">
+          <ul>
+            <li><div class="social-desc__icon"><a href="#"><img src="./img/social/footer-vk.png" alt="vk"></a></div></li>
+            <li><div class="social-desc__icon"><a href="#"><img src="./img/social/footer-fb.png" alt="fb"></a></div></li>
+            <li><div class="social-desc__icon"><a href="#"><img src="./img/social/footer-google.png" alt="google"></a></div></li>
+            <li><div class="social-desc__icon"><a href="#"><img src="./img/social/footer-twitter.png" alt="twetter"></a></div></li>
+            <li><div class="social-desc__icon"><a href="#"><img src="./img/social/footer-email.png" alt="email"></a></div></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
