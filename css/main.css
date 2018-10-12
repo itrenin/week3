@@ -261,12 +261,12 @@ header{
     line-height: 200%;
 
 }
-.content-block-body ul{
+.content-block-body__list{
     list-style: disc outside;
     padding-left: 40px;
 }
 
-.content-block-body h3{
+.content-block-body__header{
     font-family: OpenSans-ExtraBold;
     font-size: 11px;
     text-align: center;
@@ -277,11 +277,11 @@ header{
 .content-block-body__list{
     line-height: 20px;
 }
-.feature-content__block h4{
+.content-block-body__desc{
     font-size: 18px;
     text-align: center;
 }
-.feature-content__block li{
+.content-block-body__list-item{
     font-size: 18px;
     line-height: 205%;
 }
@@ -398,9 +398,17 @@ vertical-align: top;
 overflow: hidden;
 } 
 .feeds__top-feeds-img-container{
+display: block;
 width: 160px;
 height: 100%;
 margin-bottom: 20px;
+-webkit-filter: grayscale(.4);
+filter: grayscale(.4);
+}
+
+.feeds__top-feeds-img-container :hover{
+    -webkit-filter: none;
+    filter: none;
 }
 
 
