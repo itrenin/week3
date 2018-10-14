@@ -7,7 +7,8 @@
 .container-footer {
     width: 1060px;
     margin: 0 auto;
-    display: flex; }
+    display: flex; 
+}
 
 .copyright {
     color: white;
@@ -19,40 +20,49 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
-    margin-top: 18px; }
+    margin-top: 18px; 
+}
 .copyright__text a {
     color: white;
-    font-weight: bold; }
+    font-weight: bold; 
+}
 .copyright__text b {
-    font-weight: bold; }
+    font-weight: bold; 
+}
 
 .logo-footer {
     display: flex;
     margin: 0 auto;
-    text-decoration: none; }
+    text-decoration: none; 
+}
 
 .social {
     color: white;
-    margin-top: 18px; }
+    margin-top: 18px; 
+}
 
 .social__text {
+    display: block;
     font-weight: bold;
     font-family: "Open Sans";
-    font-size: 14px; }
+    font-size: 14px; 
+    margin-bottom: 10px;
+}
 
 .social__list {
     list-style: none;
     display: flex;
-    padding-left: 0;
-    padding-top: 3px;
+
 }
 
 .social__item {
     margin-right: 10px;
-    display: flex; }
+    display: flex; 
+}
 
 .social__image {
-    margin: 0 auto; }
+    margin: 0 auto; 
+}
 
 .social__item-link {
     display: flex;
@@ -61,9 +71,11 @@
     height: 20px;
     border-radius: 50%;
     background-color: #d0d0d0;
-    transition: 0.2s; }
+    transition: 0.2s; 
+}
 .social__item-link:hover {
-    background-color: #f89513; }
+    background-color: #f89513; 
+}
 .fb {
     background-image: url("../img/sprites/sprites_footer.png");
     background-position: -65px -15px;

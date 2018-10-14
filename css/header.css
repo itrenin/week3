@@ -1,27 +1,34 @@
 .header {
-    background-color: #131415; }
+    background-color: #131415; 
+}
 
 .container-header {
-    display: flex; }
+    display: flex; 
+}
 
 .logo {
-    align-self: center; }
+    align-self: center; 
+}
 
 .logo-text {
     font-family: Gora;
     font-size: 18px;
     color: #f89513;
-    text-decoration: none; }
+    text-decoration: none; 
+}
 .logo-text:hover {
-    text-decoration: none; }
+    text-decoration: none; 
+}
 
 .top-bar {
     margin: 0 auto;
-    display: flex; }
+    display: flex; 
+}
 
 .top-bar__list {
     list-style: none;
-    align-self: center; }
+    align-self: center; 
+}
 
 .top-bar__item {
     color: white;

@@ -12,6 +12,9 @@
 .breadcrumbs__item {
     margin-right: 5px;
 }
+.breadcrumbs__item:not(:last-of-type)::after{
+    content: " / ";
+}
 
 .breadcrumbs__link {
     color: #f89513;
@@ -25,5 +28,5 @@
 }
 
 .breadcrumbs__link--active {
-
+ color: #4e4c4c;
 }
