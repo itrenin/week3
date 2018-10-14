@@ -1,0 +1,29 @@
+.breadcrumbs {
+    margin-top: 46px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    font-style: italic;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+.breadcrumbs__item {
+    margin-right: 5px;
+}
+
+.breadcrumbs__link {
+    color: #f89513;
+    text-decoration: none;
+    border-bottom: 1px solid #f89513;
+    transition: 0.2s;
+}
+
+.breadcrumbs__link:hover {
+    border-bottom: none;
+}
+
+.breadcrumbs__link--active {
+
+}

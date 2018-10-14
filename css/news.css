@@ -1,0 +1,118 @@
+.news {
+    display: flex;
+    padding: 0;
+    padding-right: 26px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 38px;
+    width: 880px;
+    margin-bottom: 63px;
+}
+
+.news-item__image-wrapper {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+
+.news-item__text-wrapper {
+    flex-shrink: 100;
+    font-family: "Open Sans"; 
+}
+
+.news-item {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 20px;
+}
+.news-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.news-item__link {
+    color: black;
+    display: flex; }
+
+.news-item__date {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.42em;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.news-item__caption {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 4px;
+    line-height: 21px;
+    color: black;
+    text-decoration: none;
+}
+
+.news-item__text {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 14px;
+    line-height: 30px; }
+
+.container-news {
+    width: 1100px;
+    margin: 0 auto; }
+
+.news-wrapper {
+    display: flex; }
+
+.top-news {
+    margin-top: 48px; }
+
+.top-news__caption {
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: block; }
+
+.top-news__description {
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #656464;
+    margin-top: 11px;
+    display: block; }
+
+.top-news__item {
+    width: 160px;
+    margin-top: 20px; }
+
+.top-news__list {
+    list-style: none;
+    padding-left: 0; }
+
+.top-news__item-img {
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.top-news__item-img:hover {
+    opacity: 1;
+}
+
+.news-reviews {
+    width: 100%;
+}
