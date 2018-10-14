@@ -3,9 +3,19 @@ ul, li {
     padding: 0;
     margin: 0; 
 }
+figure{
+    margin: 0;
+}
+.main-wrapper{
+    display: flex;
+    width: 1100px;
+    flex-direction: row;
+    margin: 0 auto;
+
+}
 
 .container {
-    max-width: 1100px;
+    max-width: 780px;
     margin: 0 auto; 
 }
 
@@ -36,21 +46,29 @@ body {
     font-family: "Open Sans";
     text-transform: uppercase;
     text-align: center;
-    padding-top: 62px;
+    padding-top: 30px;
     margin-top: 0; 
+}
+.caption-features{
+    font-size: 18px;
 }
 .caption-white {
     color: white; 
 }
+.caption-black{
+    color: black;
+}
 
 .container-switcher {
-    width: 1100px;
+    width: 780px;
     margin: 0 auto; 
+    display: flex;
 }
 
 .counter {
     margin: 0 auto;
     text-align: center; 
+    display: flex;
 }
 
 .switcher__pages {
@@ -70,6 +88,8 @@ body {
 }
 
 .counter-text {
+    display: inline-block;
+    align-self: center;
     font-family: "Roboto";
     font-weight: 300;
     font-size: 14px;
@@ -113,6 +133,7 @@ body {
 .pagination__btn {
     color: #bebdbd;
     font-size: 22px; 
+    text-decoration: none;
 }
 .pagination__btn:hover {
     color: black; 

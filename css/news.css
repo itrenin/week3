@@ -78,7 +78,10 @@
 }
 
 .top-news {
+    display: flex;
+    flex-direction: column;
     margin-top: 48px; 
+    text-align: center;
 }
 
 .top-news__caption {
@@ -105,9 +108,11 @@
 .top-news__item {
     width: 160px;
     margin-top: 20px;
+    
 }
 
 .top-news__list {
+    align-self: center;
     list-style: none;
     padding-left: 0; 
 }

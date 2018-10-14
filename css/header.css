@@ -1,9 +1,13 @@
 .header {
     background-color: #131415; 
+    margin-bottom: 40px;
 }
 
 .container-header {
     display: flex; 
+    width: 1060px;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .logo {
@@ -23,21 +27,25 @@
 .top-bar {
     margin: 0 auto;
     display: flex; 
+    flex-direction: column;
 }
 
 .top-bar__list {
     list-style: none;
     align-self: center; 
+    display: flex;
+    flex-direction: column;
 }
 
 .top-bar__item {
-    color: white;
+    color: black;
     display: inline-flex;
     font-size: 12px;
     text-transform: uppercase;
     font-family: "Open Sans";
     font-weight: bold;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 
@@ -46,11 +54,13 @@
     margin-right: 28px;
     padding-left: 12px;
     transition: 0.2s;
-    color: white;
-    text-decoration: none; }
+    color: black;
+    text-decoration: none; 
+    }
 .top-bar__item-text:hover {
     color: #f89513;
-    text-decoration: none; }
+    text-decoration: none; 
+}
 
 
 .top-bar__icon {

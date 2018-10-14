@@ -8,6 +8,7 @@
     width: 1060px;
     margin: 0 auto;
     display: flex; 
+    justify-content: space-between;
 }
 
 .copyright {
@@ -35,14 +36,19 @@
     margin: 0 auto;
     text-decoration: none; 
 }
+.social-container{
+    display: flex;
+    justify-content: center;
+
+}
 
 .social {
-    color: white;
+    align-self: center;
+    color: black;
     margin-top: 18px; 
 }
 
 .social__text {
-    display: block;
     font-weight: bold;
     font-family: "Open Sans";
     font-size: 14px; 
@@ -52,12 +58,14 @@
 .social__list {
     list-style: none;
     display: flex;
+    justify-content: center;
 
 }
 
 .social__item {
     margin-right: 10px;
     display: flex; 
+    al
 }
 
 .social__image {
@@ -70,7 +78,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #d0d0d0;
+    background-color: #ffffff;
     transition: 0.2s; 
 }
 .social__item-link:hover {
