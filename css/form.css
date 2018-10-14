@@ -95,7 +95,7 @@
     height: 20px;
     width: 21px;
     margin: 0 5px 0 0;
-    background-image: url(../images/circle_empty.png);
+    background-image: url(../img/form/circle_empty.png);
     background-size: contain;
     background-repeat: no-repeat;
     transition: 0.2s;
@@ -110,7 +110,7 @@
 
 
 .form__radio-elem:checked + .form__radio-text:before {
-    background-image: url(../images/circle.png);
+    background-image: url(../img/form/circle.png);
 }
 
 .form__radio-elem:checked + .form__radio-text {
