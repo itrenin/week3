@@ -1,12 +1,12 @@
 .breadcrumbs {
-    margin-top: 46px;
+    font-family: "Open Sans";
+    font-size: 14px;
 }
 
 .breadcrumbs__list {
     display: flex;
     font-style: italic;
-    font-family: "Open Sans";
-    font-size: 14px;
+    
 }
 
 .breadcrumbs__item {
