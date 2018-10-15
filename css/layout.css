@@ -65,10 +65,15 @@ body {
     display: flex;
 }
 
+
 .counter {
     margin: 0 auto;
     text-align: center; 
     display: flex;
+}
+.counter-feeds{
+    
+    margin-bottom: 66px;
 }
 
 .switcher__pages {

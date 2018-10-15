@@ -1,10 +1,12 @@
 
 .blockquote-wrapper {
-    margin-top: 66px;
     width: 100%;
     background-color: #131415;
     background-image: url('../img/guest-book/pattern.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin-bottom: 62px;
+    background-position: center;
 }
 
 .blockquote {
@@ -12,9 +14,8 @@
     font-size: 18px;
     font-family: "Open Sans";
     line-height: 1.62em;
-    padding-top: 28px;
-    padding-bottom: 36px;
-    width: 641px;
+    padding: 30px;
+    text-align: center;
     margin: 0 auto;
 }
 

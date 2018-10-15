@@ -3,6 +3,12 @@
     width: 700px;
     margin: 0 auto;
 }
+.container-form::before{
+    display: block;
+    content: " ";
+    height: 66px;
+    width: 100%;
+}
 
 .reviews-form {
     box-sizing: border-box;
