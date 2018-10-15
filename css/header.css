@@ -110,12 +110,18 @@
 .top-bar__service-icon {
     background: url("../img/sprites/sprites.png") no-repeat;
     background-repeat: no-repeat;
-    background-position: -74px -29px;}
+    background-position: -74px -29px;
+}
+
 .top-bar__service:hover .top-bar__service-icon {
     background: url("../img/sprites/sprites.png") no-repeat;
     background-repeat: no-repeat;
     background-position: -42px -27px;
-    cursor: pointer; }
+    cursor: pointer; 
+}
+.top-bar__item-active .top-bar__service-icon {
+        background-position: -42px -27px;
+}
 
 .head-contacts {
     font-weight: bold;
@@ -132,8 +138,6 @@
     text-decoration: none;
     display: block;
 }
-
-
 
 .head-contacts__schedule:before {
     content: '';
