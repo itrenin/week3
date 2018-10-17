@@ -27,7 +27,7 @@
 .intro-logo__img {
     width: 100%;
     display: block;
-    animation: scaleIntro 1s 1s;
+    animation: scaleIntro 1s 0s;
 }
 
 .intro-logo__link {
