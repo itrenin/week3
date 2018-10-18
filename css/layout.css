@@ -46,22 +46,25 @@ body {
 }
 
 
-.caption {
+.main__title {
     font-size: 49px;
     font-weight: bold;
     font-family: "Open Sans";
     text-transform: uppercase;
-    text-align: center;
-    padding-top: 30px;
-    margin-top: 0; 
+    margin: 0;
+    margin-bottom: 47px;
 }
-.caption-features{
+.main__title--features{
     font-size: 18px;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-top: 22px;
+    text-align: center;
 }
-.caption-white {
+.main__title--white {
     color: white; 
 }
-.caption-black{
+.main__title--black{
     color: black;
 }
 
@@ -166,11 +169,6 @@ body {
 
 .caption-black {
     margin: 0; 
-}
-
-.caption-inner {
-    text-align: left;
-    padding-top: 26px;
 }
 
 

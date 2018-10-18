@@ -1,12 +1,9 @@
 .news {
     display: flex;
-    padding: 0;
-    padding-right: 26px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     list-style: none;
     flex-wrap: wrap;
-    margin-top: 38px;
     width: 880px;
     margin-bottom: 63px;
 }
@@ -47,14 +44,15 @@
     font-weight: 300;
     line-height: 1.42em;
     width: 100%;
-    margin-bottom: 2px;
+    margin-bottom: 6px;
 }
 
 .news-item__caption {
+    display: block;
     font-size: 18px;
     font-weight: 700;
     margin: 0;
-    margin-top: 4px;
+    margin-bottom: 14px;
     line-height: 21px;
     color: black;
     text-decoration: none;
@@ -64,7 +62,6 @@
     font-size: 18px;
     font-weight: 300;
     margin: 0;
-    margin-top: 14px;
     line-height: 30px; 
 }
 
@@ -78,19 +75,21 @@
 
 .top-news {
     display: flex;
-    flex-direction: column;
-    margin-top: 48px; 
+    flex-direction: column; 
     text-align: center;
+    margin-bottom: 18px;
 }
 
-.top-news__caption {
+.top-news__title {
     font-size: 12px;
     font-family: "Open Sans";
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin: 0;
     margin-bottom: 0;
     display: block; 
+    margin-bottom: 11px;
 }
 
 .top-news__description {
@@ -100,14 +99,17 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #656464;
-    margin-top: 11px;
     display: block; 
+    margin-bottom: 24px;
 }
 
 .top-news__item {
     width: 160px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     
+}
+.top-news__item:last-of-type{
+    margin-bottom: 0;
 }
 
 .top-news__list {

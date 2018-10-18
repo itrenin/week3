@@ -1,15 +1,17 @@
-.caption-services {
+.title__services {
     font-size: 18px;
     text-align: center;
 
 }
-.caption-services--header {
+.title__services--header {
     display: block;
+    padding-top: 30px;
     margin-bottom: 50px;
 
 }
-.caption-services-main{
+.title__services--main{
     font-size: 48px;
+    text-align: left;
 }
 
 .services__list {
@@ -28,6 +30,7 @@
     border-radius: 3px;
     display: flex;
     justify-content: center;
+    margin-bottom: 27px;
 }
 
 .services__img:before {
@@ -62,13 +65,14 @@
 }
 
 .news-item__caption_service {
-    margin-top: 27px;
     font-family: "Open Sans";
+    margin-bottom: 16px;
 }
 
-.text_services {
+.services__text {
+    font-family: "Open Sans";
     font-size: 14px;
-    margin-top: 16px;
+    margin: 0;
     margin-bottom: 72px;
 }
 

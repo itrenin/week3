@@ -48,44 +48,44 @@
                             </nav>
                             
                             <section class="feature-wrapper">
-                                    <h3 class="caption caption-features caption-black">Особенность</h3>
-                                    <ul class="features">
-                                        <li class="feature">
-                                            <p class="description">Уникальность</p>
-                                            <p class="text">Мы делаем все для вашего комфорта</p>
-                                                <ul class="feature-list">
-                                                    <li class="feature-list__item">Питание включено</li>
-                                                    <li class="feature-list__item">Багаж (5кг)</li>
-                                                    <li class="feature-list__item">Душ/баня</li>
+                                    <h3 class="main__title main__title--features main__title--black">Особенность</h3>
+                
+                                        <div class="feature">
+                                            <p class="feature__description">Уникальность</p>
+                                            <p class="feature__text">Мы делаем все для вашего комфорта</p>
+                                                <ul class="feature__list">
+                                                    <li class="feature__list-item">Питание включено</li>
+                                                    <li class="feature__list-item">Багаж (5кг)</li>
+                                                    <li class="feature__list-item">Душ/баня</li>
                                                 </ul>
-                                        </li>
+                                            </div>
                                         
-                                    </ul>
+                                    
                                 </section>
-                                <div class="top-news">
-                                        <h4 class="top-news__caption">
+                                <section class="top-news">
+                                        <h4 class="top-news__title">
                                             Топ новостей
                                         </h4>
                                         <span class="top-news__description">За сентябрь</span>
-                                        <section class="top-news__list">
-                                            <article class="top-news__item">
+                                        <ul class="top-news__list">
+                                            <li class="top-news__item">
                                                 <a href="#" class="top-news__link">
                                                     <img src="./img/top-feeds/feeds-top1.jpg" alt="top-1" class="top-news__item-img">
                                                 </a>
-                                            </article>
-                                            <article class="top-news__item">
+                                            </li>
+                                            <li class="top-news__item">
                                                 <a href="#" class="top-news__link">
                                                     <img src="./img/top-feeds/feeds-top2.jpg" alt="top-2" class="top-news__item-img">
                                                 </a>
-                                            </article>
-                                            <article class="top-news__item">
+                                            </li>
+                                            <li class="top-news__item">
                                                 <a href="#" class="top-news__link">
                                                     <img src="./img/top-feeds/feeds-top3.jpg" alt="top-3" class="top-news__item-img">
                                                 </a>
-                                            </article>
-                                        </section>
+                                            </li>
+                                        </ul>
                                         
-                                    </div>
+                                    </section>
                                     <section class="social-container">
                                             <div class="social">
                                                     <span class="social__text">Наши социальные сети</span>
@@ -122,17 +122,17 @@
                                 <img src="./img/main-banner.png" alt="just_do_it" class="slider__image">
                             </div>
                         <div class="content-wrapper news-wrapper">
-                                <h3 class="caption caption-black">Последние новости</h3>
+                                <h3 class="main__title main__title--black">Последние новости</h3>
                             <div class="news-wrapper__content">
                                 <ul class="news">
-                                    <article class="news-item">
-                                        <li class="news-item__link">
+                                    <li class="news-item">
+                                        <div class="news-item__link">
                                             <div class="news-item__image-wrapper">
                                                 <img src="./img/feeds/feeds-logo1.jpg" alt="похудение">
                                             </div>
                                             <div class="news-item__text-wrapper">
                                                 <div class="news-item__date">12.10.2016</div>
-                                                <a href="#" class="news-item__caption">Похудение с помощью бодибилдинга</a>
+                                                <p class="news-item__caption">Похудение с помощью бодибилдинга</p>
                                                 <p class="news-item__text">Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий,
                                                 однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4
                                                 литров кислорода. Это крайне важно для каждого начинающего атлета.</p>
@@ -146,7 +146,7 @@
                                             </div>
                                             <div class="news-item__text-wrapper">
                                                 <div class="news-item__date">01.02.2016</div>
-                                                <a href="#" class="news-item__caption">Заражай друзей, получай призы!</a>
+                                                <p class="news-item__caption">Заражай друзей, получай призы!</p>
                                                     <p class="news-item__text">Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров,
                                                         дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!</p>
                                             </div>
@@ -159,7 +159,7 @@
                                             </div>
                                             <div class="news-item__text-wrapper">
                                                 <div class="news-item__date">22.12.2015</div>
-                                                <a href="#" class="news-item__caption">Фрилансер? Выпрями спину!</a>
+                                                <p class="news-item__caption">Фрилансер? Выпрями спину!</p>
                                                 <p class="news-item__text">Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму.
                                                     Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора! </p>
                                             </div>
@@ -211,13 +211,13 @@
 
         <footer class="footer">
             <div class="container">
-                <address class="copyright">
+                <div class="copyright">
                     <p class="copyright__text">
                         Сделано с любовью и старанием <br>
                         на курсе «HTML + CSS» в <a href="#">LoftSchool</a>.<br>
                         Автор работы: <b>Тренин Илья</b>
                     </p>
-                </address>
+                </div>
                 <a href="#" class="logo">
                     <span class="logo-text">Афродита</span>
                 </a>

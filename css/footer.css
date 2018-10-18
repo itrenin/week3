@@ -16,7 +16,6 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
-    margin-top: 18px; 
 }
 .copyright__text a {
     color: white;
@@ -40,7 +39,6 @@
 .social {
     align-self: center;
     color: black;
-    margin-top: 18px; 
 }
 
 .social__text {

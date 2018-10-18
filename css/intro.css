@@ -27,11 +27,11 @@
 .intro-logo__img {
     width: 100%;
     display: block;
+    margin-bottom: 36px;
     animation: scaleIntro 1s 0s;
 }
 
 .intro-logo__link {
-    margin-top: 36px;
     display: block;
     text-align: center;
     background-color: #131415;    

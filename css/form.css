@@ -2,21 +2,14 @@
     background-color: #f5f5f5;
     width: 700px;
 }
-.form-wrapper::before{
-    display: block;
-    content: " ";
-    height: 66px;
-    width: 100%;
-}
 
 .reviews-form {
     box-sizing: border-box;
-    /*padding: 60px 70px 46px 70px;*/
-    margin: 0px 70px 46px 70px;
+    margin: 50px 70px;
 }
 
 .form__title {
-    padding: 0;
+    text-align: left;
 }
 
 .form__field-title {
@@ -27,7 +20,7 @@
 
 .form__row {
     display: flex;
-    margin-top: 21px;
+    margin-bottom: 21px;
     justify-content: space-between;
 }
 
