@@ -25,20 +25,21 @@
     text-decoration: none; 
 }
 
-.top-bar {
+.nav {
     margin: 0 auto;
     display: flex; 
     flex-direction: column;
 }
 
-.top-bar__list {
+.nav__list {
     list-style: none;
     align-self: center; 
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
-.top-bar__item {
+.nav__item {
     color: black;
     display: inline-flex;
     font-size: 12px;
@@ -48,80 +49,78 @@
     align-items: center;
     margin-bottom: 30px;
 }
+.nav__item:last-of-type {
+    
+    margin-bottom: 0;
+}
 
-
-
-.top-bar__item-text {
-    margin-right: 28px;
-    padding-left: 12px;
+.nav__link{
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
     transition: 0.2s;
     color: black;
-    text-decoration: none; 
-    }
-.top-bar__item-text:hover {
+}
+.nav__item--active .nav__link{
     color: #f89513;
-    text-decoration: none; 
 }
 
-
-.top-bar__icon {
+.nav__link:hover{
+    color: #f89513;
+}
+.nav__link::before{
+    content: '';
+    display: inline-block;
+    overflow: hidden;
+    background-position: center center;
     width: 19px;
     height: 20px;
+    vertical-align: middle;
+    margin-right: 15px;
 }
-.top-bar__item-active .top-bar__item-text {
-    color: #f89513; }
-
-
-.top-bar__index-icon {
+.nav__link-main{
+    display: inline-block;
     background-image: url("../img/sprites/sprites.png");
-    background-position: -107px -27px;
-
-}
-
-.top-bar__item-active .top-bar__index-icon {
-    background-position: -104px -2px;
-}
-
-.top-bar__index-icon:hover {
-    cursor: pointer;
-    background-position: -104px -2px;
+    background-position: -3px -3px;
     background-repeat: no-repeat;
 }
 
-.top-bar__index:hover .top-bar__index-icon {
-    background: url("../img/sprites/sprites.png") no-repeat;
-    background-repeat: no-repeat;
-    background-position: -104px -2px;
-    cursor: pointer; }
 
-.top-bar__reviews-icon {
+.nav__link-main:hover{
+    background-position: -3px -23px;
+
+}
+.nav__item--active .nav__link-main {
+    background-position: -3px -23px;
+}
+
+.nav__link-feed{
+    display: inline-block;
     background: url("../img/sprites/sprites.png");
-    background-position: -75px -4px;
+    background-position: -3px -44px;
     background-repeat: no-repeat;
-}
-.top-bar__reviews:hover .top-bar__reviews-icon {
-    background-position: -45px -2px;
-    background-repeat: no-repeat;
-    cursor: pointer; }
 
-.top-bar__item-active .top-bar__reviews-icon {
-    background-position: -45px -2px;
+}
+.nav__item--active .nav__link-feed{
+    background-position: -3px -69px;
 }
 
-.top-bar__service-icon {
-    background: url("../img/sprites/sprites.png") no-repeat;
+.nav__link-feed:hover{
+    background-position: -3px -69px;
+}
+.nav__link-service{
+    display: inline-block;
+    background: url("../img/sprites/sprites.png");
     background-repeat: no-repeat;
-    background-position: -74px -29px;
+    background-position: -3px -97px;
+}
+.nav__item--active .nav__link-service{
+    background-position: -3px -120px;
 }
 
-.top-bar__service:hover .top-bar__service-icon {
-    background: url("../img/sprites/sprites.png") no-repeat;
-    background-repeat: no-repeat;
-    background-position: -42px -27px;
-    cursor: pointer; 
-}
-.top-bar__item-active .top-bar__service-icon {
-        background-position: -42px -27px;
+.nav__link-service:hover{
+    background-position: -3px -120px;
 }
 
 .head-contacts {

@@ -1,8 +1,8 @@
-.container-features {
+.features-wrapper {
     background-color: #131415; 
 }
 
-.feature-container{
+.feature-wrapper{
     border: 1px solid black;
 }
 .features {

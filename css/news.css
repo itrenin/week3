@@ -68,12 +68,11 @@
     line-height: 30px; 
 }
 
-.container-news {
-    width: 1100px;
-    margin: 0 auto; 
+.news-wrapper {
+    margin-bottom: 80px; 
 }
 
-.news-wrapper {
+.news-wrapper__content {
     display: flex; 
 }
 

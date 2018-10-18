@@ -4,12 +4,7 @@
     background-color: #131415;
 }
 
-.container-footer {
-    width: 1060px;
-    margin: 0 auto;
-    display: flex; 
-    justify-content: space-between;
-}
+
 
 .copyright {
     color: white;

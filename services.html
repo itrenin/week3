@@ -12,7 +12,7 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="container-header">
+            <div class="container">
                 <div class="logo">
                     <a href="#" class="logo-text">Афродита</a>
                 </div>
@@ -31,16 +31,16 @@
         </header>
         <div class="main-wrapper">
             <div class="sidebar">
-                <nav class="top-bar">
-                    <ul class="top-bar__list">
-                        <li class="top-bar__item top-bar__index">
-                            <span class="top-bar__icon top-bar__index-icon"></span><a href="./index-inner.html" class="top-bar__item-text">Главная</a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="./index-inner.html" class="nav__link nav__link-main ">Главная</a>
                         </li>
-                        <li class="top-bar__item top-bar__reviews">
-                            <span class="top-bar__icon top-bar__reviews-icon"></span><a href="./feeds.html" class="top-bar__item-text">Отзывы</a>
+                        <li class="nav__item nav__item--active">
+                           <a href="./feeds.html" class="nav__link nav__link-feed">Отзывы</a>
                         </li>
-                        <li class="top-bar__item top-bar__service top-bar__item-active">
-                            <span class="top-bar__icon top-bar__service-icon"></span><a href="./services.html" class="top-bar__item-text">Услуги</a>
+                        <li class="nav__item nav__service">
+                            <a href="./services.html" class="nav__link nav__link-service">Услуги</a>
                         </li>
                     </ul>
                 </nav>
@@ -100,7 +100,7 @@
             </div>
 
             <div class="main">
-                <section class="container">
+                <section class="content-wrapper">
                     <nav class="breadcrumbs">
                         <ul class="breadcrumbs__list">
                             <li class="breadcrumbs__item"><a href="./index-inner.html" class="breadcrumbs__link">Главная</a></li>
@@ -108,7 +108,7 @@
                         </ul>
                     </nav>
                 </section>
-                <section class="container">
+                <section class="content-wrapper">
                     <h1 class="caption caption-black caption-inner caption-services-main">Услуги</h1>
                     <ul class="services__list">
                         <li class="services__item">
@@ -184,7 +184,7 @@
 
         
         <footer class="footer">
-            <div class="container-footer">
+            <div class="container">
                 <address class="copyright">
                     <p class="copyright__text">
                         Сделано с любовью и старанием <br>

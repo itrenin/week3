@@ -14,9 +14,15 @@ figure{
 
 }
 
-.container {
+.content-wrapper {
     max-width: 780px;
-    margin: 0 auto; 
+    margin: 0;
+}
+.container {
+    width: 1060px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
 }
 
 html {
