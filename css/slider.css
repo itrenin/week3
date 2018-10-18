@@ -1,7 +1,6 @@
 .slider {
     background-color: white;
     display: flex;
-    height: 592px; 
 }
 
 .slider__image {
